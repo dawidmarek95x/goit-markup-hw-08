@@ -1,0 +1,35 @@
+body {
+  font-family: $fontMain;
+  font-size: $fontSize14;
+  color: $colorPrimary;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+
+p {
+  margin: 0;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  display: block;
+}
+
+.list--non-bulleted {
+  list-style: none;
+}
+
+.link--non-decorated {
+  text-decoration: none;
+}

@@ -1,0 +1,20 @@
+.website-logo {
+  font-family: $fontSecondary;
+  font-weight: $fontWeightBold;
+  font-size: $fontSize26;
+  line-height: 1.192;
+  letter-spacing: $lettSpacing-03;
+  color: $colorDark;
+
+  .header-section & {
+    margin-right: 93px;
+  }
+}
+
+.website-logo--accent {
+  color: $colorAccent;
+}
+
+.website-logo--dark-theme {
+  color: $colorLight;
+}

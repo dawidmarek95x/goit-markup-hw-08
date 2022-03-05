@@ -1,0 +1,25 @@
+.what-we-do__list {
+  display: flex;
+  justify-content: space-between;
+}
+
+.what-we-do__item {
+  position: relative;
+}
+
+.what-we-do__label {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  padding-top: 27px;
+  padding-bottom: 27px;
+  font-weight: $fontWeightBold;
+  font-size: $fontSize14;
+  line-height: 1.143;
+  text-align: center;
+  letter-spacing: $lettSpacing-03;
+  text-transform: uppercase;
+  color: $colorLight;
+  background-color: rgba(47, 48, 58, 0.8);
+}

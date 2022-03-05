@@ -1,0 +1,39 @@
+/* UTILITY COMPONENTS */
+@import './utils/variables';
+
+/* BASE COMPONENTS */
+@import './base/common';
+@import './base/container';
+@import './base/section';
+
+/* MODAL WINDOW COMPONENTS */
+@import './components/backdrop';
+@import './components/modal';
+@import './components/application-form';
+
+/* MULTIPLE COMPONENTS */
+@import './components/website-logo';
+@import './components/secondary-header';
+@import './components/tertiary-header';
+@import './components/social-links';
+
+/* HEADER COMPONENTS */
+@import './layout/header-section';
+@import './components/navigation';
+@import './layout/header-contact';
+
+/* FOOTER COMPONENTS */
+@import './layout/footer-section';
+@import './components/newsletter';
+
+/* MAIN COMPONENTS STUDIO WEBSITE */
+@import './layout/hero';
+@import './components/main-header';
+@import './layout/about';
+@import './layout/what-we-do';
+@import './layout/team';
+@import './layout/customers';
+
+/* MAIN COMPONENTS PORTFOLIO WEBSITE */
+@import './components/filter-set';
+@import './components/projects';

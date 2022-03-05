@@ -1,0 +1,38 @@
+.team {
+  background-color: $bgColorLight;
+}
+
+.team-list {
+  display: flex;
+  justify-content: space-between;
+}
+
+.team__item {
+  background: #ffffff;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
+
+  & .team__name,
+  & .team__workplace {
+    font-size: $fontSize16;
+    line-height: 1.188;
+    text-align: center;
+    letter-spacing: $lettSpacing-03;
+  }
+}
+
+.team__name {
+  margin-top: 30px;
+  margin-bottom: 10px;
+  font-weight: $fontWeightMedium;
+}
+
+.team__workplace {
+  margin-bottom: 16px;
+  color: $colorSecondary;
+}
+
+.team__social-media {
+  width: 206px;
+  margin: 0 auto 30px auto;
+}
