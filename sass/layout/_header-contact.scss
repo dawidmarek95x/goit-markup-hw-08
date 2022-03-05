@@ -1,31 +1,35 @@
 .header-contact {
-  display: flex;
-  margin-left: auto;
+  display: none;
 }
 
-.header-contact__item {
-  &:not(:last-child) {
-    margin-right: 50px;
-  }
-}
+// .header-contact {
+//   display: flex;
+//   margin-left: auto;
+// }
 
-.header-contact__link {
-  display: flex;
-  align-items: center;
-  color: $colorSecondary;
-}
+// .header-contact__item {
+//   &:not(:last-child) {
+//     margin-right: 50px;
+//   }
+// }
 
-.header-contact__icon {
-  margin-right: 10px;
-  fill: $colorSecondary;
-}
+// .header-contact__link {
+//   display: flex;
+//   align-items: center;
+//   color: $colorSecondary;
+// }
 
-.envelope-icon {
-  width: 16px;
-  height: 12px;
-}
+// .header-contact__icon {
+//   margin-right: 10px;
+//   fill: $colorSecondary;
+// }
 
-.smartphone-icon {
-  width: 10px;
-  height: 16px;
-}
+// .envelope-icon {
+//   width: 16px;
+//   height: 12px;
+// }
+
+// .smartphone-icon {
+//   width: 10px;
+//   height: 16px;
+// }

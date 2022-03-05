@@ -1,14 +1,10 @@
 .website-logo {
   font-family: $fontSecondary;
   font-weight: $fontWeightBold;
-  font-size: $fontSize26;
-  line-height: 1.192;
+  font-size: $fontSize24;
+  line-height: $rowHeight-116p7;
   letter-spacing: $lettSpacing-03;
-  color: $colorDark;
-
-  .header-section & {
-    margin-right: 93px;
-  }
+  color: $colorPrimary;
 }
 
 .website-logo--accent {
@@ -18,3 +14,16 @@
 .website-logo--dark-theme {
   color: $colorLight;
 }
+
+// .website-logo {
+//   font-family: $fontSecondary;
+//   font-weight: $fontWeightBold;
+//   font-size: $fontSize26;
+//   line-height: 1.192;
+//   letter-spacing: $lettSpacing-03;
+//   color: $colorDark;
+
+//   .header-section & {
+//     margin-right: 93px;
+//   }
+// }

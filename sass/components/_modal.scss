@@ -20,7 +20,7 @@
   letter-spacing: $lettSpacing-03;
 }
 
-.close-btn {
+.modal__close-btn {
   position: absolute;
   top: 8px;
   right: 8px;
@@ -33,10 +33,10 @@
   border: 1px solid rgba(0, 0, 0, 0.1);
   border-radius: 50%;
   cursor: pointer;
-}
 
-.cross-icon {
-  width: 11px;
-  height: 11px;
-  fill: #000;
+  & .cross-icon {
+    width: 11px;
+    height: 11px;
+    fill: #000;
+  }
 }

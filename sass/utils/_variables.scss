@@ -1,7 +1,35 @@
+/* FONT VARIABLES */
 $fontMain: 'Roboto', sans-serif;
 $fontSecondary: 'Raleway', sans-serif;
+$fontStylePrimary: normal;
+$fontWeightMedium: 500;
+$fontWeightBold: 700;
+$fontWeightBlack: 900;
+$fontSize14: 14px;
+$fontSize16: 16px;
+$fontSize18: 18px; /* mobile-social__link */
+$fontSize20: 20px;
+$fontSize24: 24px; /* website-logo (mobile), mobile-contacts__mail */
+$fontSize26: 26px;
+$fontSize34: 34px; /* header-contact__link (mobile) */
+$fontSize36: 36px;
+$fontSize40: 40px; /* nav__link (mobile) */
+$fontSize44: 44px;
+$fontSizeFormHeader: 20px;
+$fontSizeFormLabel: 12px;
+$fontSizeFormInput: 12px;
+$rowHeight-116p7: 1.167;
+$rowHeight-117p5: 1.175;
+$rowHeight-117p6: 1.176;
+$rowHeight-122p2: 1.222;
+$lettSpacing-02: 0.02em;
+$lettSpacing-03: 0.03em;
+$lettSpacing-06: 0.06em;
+$lettSpacingFormField: 0.01em;
+
+/* COLOR VARIABLES */
 $colorPrimary: #212121;
-$colorSecondary: #757575;
+$colorSecondary: #757575; /* mobile-contacts__mail */
 $colorDark: #000000;
 $colorLight: #ffffff;
 $colorLightOpacity: #ffffff99;
@@ -11,25 +39,11 @@ $colorPrimaryIcons: #afb1b8;
 $colorBackdropPlaceholder: #75757580;
 $bgColorDark: #2f303a;
 $bgColorLight: #f5f4fa;
+$bgColorLightest: #ffffff; /* mobile-menu */
 $bgColorSecondaryIcons: #ffffff1a;
 $borderColorHeader: #ececec;
 $borderColorProjects: #eeeeee;
 $borderColorBackdrop: #21212133;
-$fontStylePrimary: normal;
-$fontWeightMedium: 500;
-$fontWeightBold: 700;
-$fontWeightBlack: 900;
-$fontSize14: 14px;
-$fontSize16: 16px;
-$fontSize18: 18px;
-$fontSize20: 20px;
-$fontSize26: 26px;
-$fontSize36: 36px;
-$fontSize44: 44px;
-$fontSizeFormHeader: 20px;
-$fontSizeFormLabel: 12px;
-$fontSizeFormInput: 12px;
-$lettSpacing-02: 0.02em;
-$lettSpacing-03: 0.03em;
-$lettSpacing-06: 0.06em;
-$lettSpacingFormField: 0.01em;
+$borderColorMobileSocial: #21212133; /* mobile-social__item */
+$fillDarkest: #000000; /* mobile-menu__icon */
+$fillAccent: #2196f3; /* mobile-menu__icon */

@@ -9,7 +9,13 @@
       name="description"
       content="The portfolio of the WebStudio company that creates web applications"
     />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css" integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+      integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -24,10 +30,14 @@
     <header class="header-section">
       <div class="container nav-container">
         <nav class="nav">
-          <a class="website-logo link--non-decorated" href="index.html"><span class="website-logo--accent">Web</span>Studio </a>
+          <a class="website-logo link--non-decorated" href="index.html"
+            ><span class="website-logo--accent">Web</span>Studio
+          </a>
           <ul class="nav__list list--non-bulleted">
             <li class="nav__item">
-              <a class="nav__link header-section__link link--non-decorated" href="index.html">Agencja</a>
+              <a class="nav__link header-section__link link--non-decorated" href="index.html"
+                >Agencja</a
+              >
             </li>
             <li class="nav__item">
               <a
@@ -42,35 +52,126 @@
           </ul>
         </nav>
         <ul class="header-contact list--non-bulleted">
-            <li class="header-contact__item">
-              <a class="header-contact__link header-section__link link--non-decorated" href="mailto:info@devstudio.com">
-                <svg class="header-contact__icon envelope-icon">
-                  <use href="./images/icons.svg#icon-envelope">
-                  </use>
-                </svg>
-                info@devstudio.com
-              </a>
+          <li class="header-contact__item">
+            <a
+              class="header-contact__link header-section__link link--non-decorated"
+              href="mailto:info@devstudio.com"
+            >
+              <svg class="header-contact__icon envelope-icon">
+                <use href="./images/icons.svg#icon-envelope"></use>
+              </svg>
+              info@devstudio.com
+            </a>
+          </li>
+          <li class="header-contact__item">
+            <a
+              class="header-contact__link header-section__link link--non-decorated"
+              href="tel:+48111111111"
+            >
+              <svg class="header-contact__icon smartphone-icon">
+                <use href="./images/icons.svg#icon-smartphone"></use>
+              </svg>
+              +48 111 111 111
+            </a>
+          </li>
+        </ul>
+        <button class="mobile-menu__open-btn" type="button" mobile-menu--open>
+          <svg class="mobile-menu__icon">
+            <use href="./images/icons.svg#icon-mobile-menu"></use>
+          </svg>
+        </button>
+
+        <!-- MOBILE MENU WINDOW -->
+        <div class="mobile-menu mobile-menu--is-hidden" mobile-menu>
+          <button class="mobile-menu__close-btn" type="button" mobile-menu--close>
+            <svg class="cross-icon">
+              <use href="./images/icons.svg#icon-cross"></use>
+            </svg>
+          </button>
+          <ul class="mobile-nav__list list--non-bulleted">
+            <li class="mobile-nav__item">
+              <a class="mobile-nav__link mobile-menu__link link--non-decorated" href="index.html"
+                >Agencja</a
+              >
             </li>
-            <li class="header-contact__item">
-              <a class="header-contact__link header-section__link link--non-decorated" href="tel:+48111111111">
-                <svg class="header-contact__icon smartphone-icon">
-                  <use href="./images/icons.svg#icon-smartphone">
-                  </use>
-                </svg>
+            <li class="mobile-nav__item">
+              <a
+                class="mobile-nav__link mobile-menu__link link--non-decorated mobile-nav__link--active"
+                href="portfolio.html"
+                >Portfolio</a
+              >
+            </li>
+            <li class="mobile-nav__item">
+              <a class="mobile-nav__link mobile-menu__link link--non-decorated" href="#">Kontakt</a>
+            </li>
+          </ul>
+          <ul class="mobile-contacts list--non-bulleted">
+            <li class="mobile-contacts__item">
+              <a
+                class="mobile-contacts__link mobile-menu__link mobile-contacts__phone link--non-decorated"
+                href="tel:+48111111111"
+              >
                 +48 111 111 111
               </a>
             </li>
+            <li class="mobile-contacts__item">
+              <a
+                class="mobile-contacts__link mobile-menu__link mobile-contacts__mail link--non-decorated"
+                href="mailto:info@devstudio.com"
+              >
+                info@devstudio.com
+              </a>
+            </li>
           </ul>
+          <ul class="mobile-social__list list--non-bulleted">
+            <li class="mobile-social__item">
+              <a
+                href="https://www.instagram.com/"
+                class="mobile-social__link link--non-decorated"
+                target="_blank"
+              >
+                Instagram
+              </a>
+            </li>
+            <li class="mobile-social__item">
+              <a
+                href="https://twitter.com/"
+                class="mobile-social__link link--non-decorated"
+                target="_blank"
+              >
+                Twitter
+              </a>
+            </li>
+            <li class="mobile-social__item">
+              <a
+                href="https://www.facebook.com/"
+                class="mobile-social__link link--non-decorated"
+                target="_blank"
+              >
+                Facebook
+              </a>
+            </li>
+            <li class="mobile-social__item">
+              <a
+                href="https://www.linkedin.com/"
+                class="mobile-social__link link--non-decorated"
+                target="_blank"
+              >
+                LinkedIn
+              </a>
+            </li>
+          </ul>
+        </div>
       </div>
     </header>
 
     <!-- MAIN SECTION -->
-    <main class="main-section-portfolio">
+    <!-- <main class="main-section-portfolio">
       <section class="portfolio section">
-        <div class="container">
+        <div class="container"> -->
 
-          <!-- PORTFOLIO FILTERS -->
-          <ul class="filter-set list--non-bulleted">
+    <!-- PORTFOLIO FILTERS -->
+    <!-- <ul class="filter-set list--non-bulleted">
             <li class="filter-set__item">
               <button class="filter-set__btn" type="button">Wszystkie</button>
             </li>
@@ -86,10 +187,10 @@
             <li class="filter-set__item">
               <button class="filter-set__btn" type="button">Marketing</button>
             </li>
-          </ul>
-          
-          <!-- PORTFOLIO PROJECTS -->
-          <ul class="projects list--non-bulleted">
+          </ul> -->
+
+    <!-- PORTFOLIO PROJECTS -->
+    <!-- <ul class="projects list--non-bulleted">
             <li class="projects__item">
               <a class="projects__link link--non-decorated" href="#">
                 <div class="projects__overlay">
@@ -255,10 +356,10 @@
           </ul>
         </div>
       </section>
-    </main>
+    </main> -->
 
     <!-- FOOTER SECTION -->
-    <footer class="footer-section">
+    <!-- <footer class="footer-section">
       <div class="container footer-section__container">
         <div class="footer-section__address">
           <a class="website-logo website-logo--dark-theme link--non-decorated" href="index.html"
@@ -337,6 +438,9 @@
           </form>
         </div>
       </div>
-    </footer>
+    </footer> -->
+
+    <!-- SCRIPT FOR MOBILE MENU WINDOW -->
+    <script src="./js/mobile-menu.js"></script>
   </body>
 </html>
