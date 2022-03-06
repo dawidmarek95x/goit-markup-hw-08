@@ -1,15 +1,32 @@
 /* UTILITY COMPONENTS */
 /* FONT VARIABLES */
+/* hero__btn (mobile), modal__header (mobile) */
+/* main-header (mobile) */
+/* hero__btn (mobile) */
 /* mobile-social__link */
 /* website-logo (mobile), mobile-contacts__mail */
+/* main-header (mobile) */
 /* header-contact__link (mobile) */
 /* nav__link (mobile) */
+/* application-form__message (mobile) */
+/* application-form__label (mobile), application-form__policy-text (mobile) */
+/* modal__header (mobile) */
+/* hero__btn (mobile) */
+/* modal__header (mobile) */
+/* main-header (mobile), hero__btn (mobile) */
+/* application-form__field (mobile) */
 /* COLOR VARIABLES */
-/* mobile-contacts__mail */
-/* mobile-menu */
+/* mobile-contacts__mail,  */
+/* main-header (mobile), hero__btn (mobile) */
+/* hero (mobile) */
+/* mobile-menu, modal (mobile) */
+/* hero__btn (mobile) */
+/* application-form__icon */
 /* mobile-social__item */
-/* mobile-menu__icon */
-/* mobile-menu__icon */
+/* mobile-menu__icon, cross-icon (mobile - modal) */
+/* application-form__icon (mobile) */
+/* check-icon */
+/* mobile-menu__icon, cross-icon (mobile - modal) */
 /* BASE COMPONENTS */
 body {
   font-family: "Roboto", sans-serif;
@@ -100,22 +117,12 @@ img {
   position: absolute;
   top: 50%;
   left: 50%;
-  width: 528px;
-  min-height: 581px;
+  width: 450px;
   padding: 40px;
-  background-color: #fff;
+  background-color: #ffffff;
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 4px;
   transform: translate(-50%, -50%);
-}
-
-.modal__header {
-  margin-bottom: 12px;
-  font-weight: 700;
-  font-size: 20px;
-  line-height: 1.15;
-  text-align: center;
-  letter-spacing: 0.03em;
 }
 
 .modal__close-btn {
@@ -136,7 +143,21 @@ img {
 .modal__close-btn .cross-icon {
   width: 11px;
   height: 11px;
-  fill: #000;
+  fill: #000000;
+}
+
+.modal__close-btn:hover .cross-icon,
+.modal__close-btn:focus .cross-icon {
+  fill: #2196f3;
+}
+
+.modal__header {
+  margin-bottom: 12px;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 1.5;
+  text-align: center;
+  letter-spacing: 0.03em;
 }
 
 .application-form {
@@ -145,13 +166,12 @@ img {
 }
 
 .application-form__field {
-  margin-bottom: 10px;
-  line-height: 1.167;
   letter-spacing: 0.01em;
 }
 
 .application-form__label {
   font-size: 12px;
+  line-height: 1.167;
   color: #757575;
 }
 
@@ -159,6 +179,7 @@ img {
   position: relative;
   display: block;
   margin-top: 4px;
+  margin-bottom: 10px;
 }
 
 .application-form__input {
@@ -168,7 +189,8 @@ img {
   border-radius: 4px;
   padding-left: 42px;
   outline: none;
-  font-size: 12px;
+  font-size: 14px;
+  line-height: 1.143;
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -197,8 +219,8 @@ img {
   margin-top: 4px;
   border: 1px solid #21212133;
   border-radius: 4px;
-  font-size: 12px;
-  line-height: 1.167;
+  font-size: 14px;
+  line-height: 1.143;
   resize: none;
   outline: none;
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -213,11 +235,16 @@ img {
 }
 
 .application-form__policy {
-  margin: 20px auto 30px auto;
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+  margin-bottom: 30px;
 }
 
 .application-form__policy-checkbox {
   position: relative;
+  display: flex;
+  align-items: center;
 }
 
 .application-form__policy-input {
@@ -235,19 +262,21 @@ img {
 
 .check-icon {
   position: absolute;
-  top: -2px;
+  top: 0;
   left: 0;
   width: 16px;
   height: 15px;
   background-color: #2196f3;
   border-radius: 2px;
-  fill: #fff;
+  fill: #ffffff;
   cursor: pointer;
   visibility: hidden;
 }
 
 .application-form__policy-text {
-  line-height: 1.714;
+  margin-left: 8px;
+  font-size: 12px;
+  line-height: 1.167;
   letter-spacing: 0.03em;
   color: #757575;
 }
@@ -259,7 +288,8 @@ img {
 .application-form__btn {
   display: block;
   width: 200px;
-  padding: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
   margin: 0 auto;
   border: none;
   border-radius: 4px;
@@ -629,44 +659,54 @@ img {
 
 /* MAIN COMPONENTS STUDIO WEBSITE */
 .hero {
-  padding-top: 200px;
-  padding-bottom: 200px;
-  background-color: #2f303a;
-  background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/hero-bg.jpg);
+  padding-top: 118px;
+  padding-bottom: 118px;
+  background-color: #2f303a66;
+  background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/hero/hero-bg-mobile.jpg);
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 .hero__content {
-  width: 696px;
+  width: 365px;
   margin: 0 auto;
   text-align: center;
 }
 
-.hero__content h1,
-.hero__content button {
-  letter-spacing: 0.06em;
-  color: #ffffff;
-}
-
 .hero__btn {
-  padding: 10px 41px 10px 42px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 200px;
+  margin: 0 auto;
+  padding-top: 10px;
+  padding-bottom: 10px;
   border: 0px;
   border-radius: 4px;
   font-weight: 700;
   font-size: 16px;
   line-height: 1.875;
+  letter-spacing: 0.06em;
+  color: #ffffff;
   background-color: #2196f3;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   cursor: pointer;
 }
 
+@media (min-device-pixel-ratio: 2), (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
+  .hero {
+    background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/hero/hero-bg-mobile@2x.jpg);
+  }
+}
+
 .main-header {
   margin-bottom: 30px;
   font-weight: 900;
-  font-size: 44px;
-  line-height: 1.364;
+  font-size: 26px;
+  line-height: 1.615;
+  letter-spacing: 0.06em;
   text-transform: uppercase;
+  color: #ffffff;
 }
 
 .about {

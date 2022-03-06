@@ -3,47 +3,57 @@ $fontMain: 'Roboto', sans-serif;
 $fontSecondary: 'Raleway', sans-serif;
 $fontStylePrimary: normal;
 $fontWeightMedium: 500;
-$fontWeightBold: 700;
-$fontWeightBlack: 900;
+$fontWeightBold: 700; /* hero__btn (mobile), modal__header (mobile) */
+$fontWeightBlack: 900; /* main-header (mobile) */
 $fontSize14: 14px;
-$fontSize16: 16px;
+$fontSize16: 16px; /* hero__btn (mobile) */
 $fontSize18: 18px; /* mobile-social__link */
 $fontSize20: 20px;
 $fontSize24: 24px; /* website-logo (mobile), mobile-contacts__mail */
-$fontSize26: 26px;
+$fontSize26: 26px; /* main-header (mobile) */
 $fontSize34: 34px; /* header-contact__link (mobile) */
 $fontSize36: 36px;
 $fontSize40: 40px; /* nav__link (mobile) */
 $fontSize44: 44px;
 $fontSizeFormHeader: 20px;
 $fontSizeFormLabel: 12px;
-$fontSizeFormInput: 12px;
-$rowHeight-116p7: 1.167;
+$fontSizeFormInput: 14px;
+$rowHeight-114p3: 1.143; /* application-form__message (mobile) */
+$rowHeight-116p7: 1.167; /* application-form__label (mobile), application-form__policy-text (mobile) */
 $rowHeight-117p5: 1.175;
 $rowHeight-117p6: 1.176;
 $rowHeight-122p2: 1.222;
+$rowHeight-150: 1.5; /* modal__header (mobile) */
+$rowHeight-161p5: 1.615;
+$rowHeight-187p5: 1.875; /* hero__btn (mobile) */
 $lettSpacing-02: 0.02em;
-$lettSpacing-03: 0.03em;
-$lettSpacing-06: 0.06em;
-$lettSpacingFormField: 0.01em;
+$lettSpacing-03: 0.03em; /* modal__header (mobile) */
+$lettSpacing-06: 0.06em; /* main-header (mobile), hero__btn (mobile) */
+$lettSpacingFormField: 0.01em; /* application-form__field (mobile) */
 
 /* COLOR VARIABLES */
 $colorPrimary: #212121;
-$colorSecondary: #757575; /* mobile-contacts__mail */
+$colorSecondary: #757575; /* mobile-contacts__mail,  */
 $colorDark: #000000;
-$colorLight: #ffffff;
-$colorLightOpacity: #ffffff99;
+$colorLight: #ffffff; /* main-header (mobile), hero__btn (mobile) */
+$colorLightOpacity60: #ffffff99;
 $colorAccent: #2196f3;
-$colorAccentOpacity: #2196f3e5;
+$colorAccentOpacity90: #2196f3e5;
 $colorPrimaryIcons: #afb1b8;
 $colorBackdropPlaceholder: #75757580;
 $bgColorDark: #2f303a;
+$bgColorDarkOpacity40: #2f303a66; /* hero (mobile) */
 $bgColorLight: #f5f4fa;
-$bgColorLightest: #ffffff; /* mobile-menu */
+$bgColorLightest: #ffffff; /* mobile-menu, modal (mobile) */
+$bgColorAccent: #2196f3; /* hero__btn (mobile) */
 $bgColorSecondaryIcons: #ffffff1a;
+$borderColorPrimary: #212121; 
+$borderColorAccent: #2196f3; /* application-form__icon */
 $borderColorHeader: #ececec;
 $borderColorProjects: #eeeeee;
 $borderColorBackdrop: #21212133;
 $borderColorMobileSocial: #21212133; /* mobile-social__item */
-$fillDarkest: #000000; /* mobile-menu__icon */
-$fillAccent: #2196f3; /* mobile-menu__icon */
+$fillDarkest: #000000; /* mobile-menu__icon, cross-icon (mobile - modal) */
+$fillDark: #212121; /* application-form__icon (mobile) */
+$fillLightest: #ffffff; /* check-icon */
+$fillAccent: #2196f3; /* mobile-menu__icon, cross-icon (mobile - modal) */
