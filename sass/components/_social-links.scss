@@ -16,19 +16,19 @@
 
   &:hover,
   &:focus {
-    background-color: $colorAccent;
+    background-color: $bgColorAccent;
   }
 
   &:hover > .social-link__icon--light,
   &:focus > .social-link__icon--light,
   &:hover > .social-link__icon--dark,
   &:focus > .social-link__icon--dark {
-    fill: $colorLight;
+    fill: $fillLightest;
   }
 }
 
 .social-link__link--light {
-  background-color: $colorLight;
+  background-color: $bgColorLightest;
 }
 
 .social-link__link--dark  {
@@ -41,9 +41,9 @@
 }
 
 .social-link__icon--light {
-  fill: $colorPrimaryIcons;
+  fill: $fillPrimaryIcons;
 }
 
 .social-link__icon--dark {
-  fill: $colorLight;
+  fill: $fillLightest;
 }

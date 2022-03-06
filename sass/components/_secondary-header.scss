@@ -1,8 +1,17 @@
 .secondary-header {
-  margin-bottom: 50px;
+  margin-bottom: 30px;
   font-weight: $fontWeightBold;
-  font-size: $fontSize36;
-  line-height: 1.167;
+  font-size: $fontSize28;
+  line-height: $rowHeight-117p9;
   text-align: center;
   letter-spacing: $lettSpacing-03;
 }
+
+// .secondary-header {
+//   margin-bottom: 50px;
+//   font-weight: $fontWeightBold;
+//   font-size: $fontSize36;
+//   line-height: 1.167;
+//   text-align: center;
+//   letter-spacing: $lettSpacing-03;
+// }
