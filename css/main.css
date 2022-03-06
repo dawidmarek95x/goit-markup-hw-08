@@ -860,17 +860,21 @@ img {
 /* MAIN COMPONENTS PORTFOLIO WEBSITE */
 .filter-set {
   display: flex;
-  justify-content: center;
-  align-items: center;
+  flex-wrap: wrap;
+  align-content: center;
+  margin-top: -15px;
+  margin-left: -8px;
 }
 
-.filter-set__item:not(:last-child) {
-  margin-right: 8px;
+.filter-set__item {
+  flex-basis: calc((100% / 3) -16px);
+  margin-top: 15px;
+  margin-left: 8px;
 }
 
 .filter-set__btn {
-  padding: 6px 22px;
-  margin-bottom: 56px;
+  width: 128px;
+  padding: 6px 0;
   border: 0;
   border-radius: 4px;
   font-weight: 500;

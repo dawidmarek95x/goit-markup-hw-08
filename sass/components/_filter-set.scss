@@ -1,23 +1,25 @@
 .filter-set {
   display: flex;
-  justify-content: center;
-  align-items: center;
+  flex-wrap: wrap;
+  align-content: center;
+  margin-top: -15px;
+  margin-left: -8px;
 }
 
 .filter-set__item {
-  &:not(:last-child) {
-    margin-right: 8px;
-  }
+  flex-basis: calc((100% / 3) -16px);
+  margin-top: 15px;
+  margin-left: 8px;
 }
 
 .filter-set__btn {
-  padding: 6px 22px;
-  margin-bottom: 56px;
+  width: 128px;
+  padding: 6px 0;
   border: 0;
   border-radius: 4px;
   font-weight: $fontWeightMedium;
   font-size: $fontSize16;
-  line-height: 1.625;
+  line-height: $rowHeight-162p5;
   text-align: center;
   letter-spacing: $lettSpacing-03;
   background-color: $bgColorLight;
@@ -27,7 +29,41 @@
   &:hover,
   &:focus {
     color: $colorLight;
-    background-color: $colorAccent;
+    background-color: $bgColorAccent;
     box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
   }
 }
+
+// .filter-set {
+//   display: flex;
+//   justify-content: center;
+//   align-items: center;
+// }
+
+// .filter-set__item {
+//   &:not(:last-child) {
+//     margin-right: 8px;
+//   }
+// }
+
+// .filter-set__btn {
+//   padding: 6px 22px;
+//   margin-bottom: 56px;
+//   border: 0;
+//   border-radius: 4px;
+//   font-weight: $fontWeightMedium;
+//   font-size: $fontSize16;
+//   line-height: 1.625;
+//   text-align: center;
+//   letter-spacing: $lettSpacing-03;
+//   background-color: $bgColorLight;
+//   cursor: pointer;
+//   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1), background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+//   &:hover,
+//   &:focus {
+//     color: $colorLight;
+//     background-color: $colorAccent;
+//     box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+//   }
+// }
