@@ -13,13 +13,16 @@
 
 /* MULTIPLE COMPONENTS */
 @import './components/website-logo';
-@import './components/mobile-menu';
 @import './components/secondary-header';
 @import './components/tertiary-header';
 @import './components/social-links';
 
 /* HEADER COMPONENTS */
 @import './layout/header-section';
+@import './components/mobile-menu';
+@import './components/mobile-navigation';
+@import './components/mobile-contacts';
+@import './components/mobile-social';
 @import './components/navigation';
 @import './layout/header-contact';
 

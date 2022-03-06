@@ -1,0 +1,17 @@
+.mobile-nav__item {
+  &:not(:last-child) {
+    margin-bottom: 32px;
+  }
+}
+
+.mobile-nav__link {
+  font-weight: $fontWeightMedium;
+  font-size: $fontSize40;
+  line-height: $rowHeight-117p5;
+  letter-spacing: $lettSpacing-02;
+  color: $colorPrimary;
+}
+
+.mobile-nav__link--active {
+  color: $colorAccent;
+}

@@ -1,0 +1,28 @@
+.mobile-contacts {
+  margin-top: 302px;
+  margin-bottom: 64px;
+}
+
+.mobile-contacts__item {
+  &:not(:last-child) {
+    margin-bottom: 32px;
+  }
+}
+
+.mobile-contacts__link {
+  font-weight: $fontWeightMedium;
+  letter-spacing: $lettSpacing-02;
+}
+
+.mobile-contacts__phone {
+  
+  font-size: $fontSize34;
+  line-height: $rowHeight-117p6;
+  color: $colorAccent;
+}
+
+.mobile-contacts__mail {
+  font-size: $fontSize24;
+  line-height: $rowHeight-116p7;
+  color: $colorSecondary;
+}
