@@ -821,13 +821,22 @@ img {
 .customers__list {
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
+  margin-top: -30px;
+  margin-left: -30px;
+}
+
+.customers__item {
+  flex-basis: calc((100% -30px) / 2);
+  margin-top: 30px;
+  margin-left: 30px;
 }
 
 .customers__link {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 170px;
+  width: 210px;
   height: 92px;
   border: 1px solid #afb1b8;
   border-radius: 4px;
