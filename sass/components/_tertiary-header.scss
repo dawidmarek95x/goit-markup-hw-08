@@ -1,7 +1,8 @@
 .tertiary-header {
   font-weight: $fontWeightBold;
   font-size: $fontSize14;
-  line-height: 1.143;
+  line-height: $rowHeight-114p3;
+  text-align: center;
   letter-spacing: $lettSpacing-03;
   text-transform: uppercase;
 }
