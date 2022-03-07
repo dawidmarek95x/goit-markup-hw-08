@@ -70,3 +70,9 @@
     color: $colorAccent;
   }
 }
+
+@media (min-width: 768px) {
+  .mobile-menu__open-btn {
+    display: none;
+  }
+}
