@@ -1,32 +1,6 @@
 /* UTILITY COMPONENTS */
 /* FONT VARIABLES */
-/* hero__btn (mobile), modal__header (mobile) */
-/* main-header (mobile) */
-/* hero__btn (mobile) */
-/* mobile-social__link */
-/* website-logo (mobile), mobile-contacts__mail */
-/* main-header (mobile) */
-/* header-contact__link (mobile) */
-/* nav__link (mobile) */
-/* application-form__message (mobile) */
-/* application-form__label (mobile), application-form__policy-text (mobile) */
-/* modal__header (mobile) */
-/* hero__btn (mobile) */
-/* modal__header (mobile) */
-/* main-header (mobile), hero__btn (mobile) */
-/* application-form__field (mobile) */
 /* COLOR VARIABLES */
-/* mobile-contacts__mail,  */
-/* main-header (mobile), hero__btn (mobile) */
-/* hero (mobile) */
-/* mobile-menu, modal (mobile) */
-/* hero__btn (mobile) */
-/* application-form__icon */
-/* mobile-social__item */
-/* mobile-menu__icon, cross-icon (mobile - modal) */
-/* application-form__icon (mobile) */
-/* check-icon */
-/* mobile-menu__icon, cross-icon (mobile - modal) */
 /* BASE COMPONENTS */
 body {
   font-family: "Roboto", sans-serif;
@@ -894,13 +868,11 @@ img {
 }
 
 .projects {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
+  margin-top: 40px;
 }
 
 .projects__item {
-  max-width: 370px;
+  background-color: #ffffff;
   border: 1px solid #eeeeee;
   transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -909,20 +881,24 @@ img {
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 
-.projects__item:nth-child(-n+6) {
+.projects__item:not(:last-child) {
   margin-bottom: 30px;
+}
+
+.projects__item:hover .projects__description {
+  transform: translateY(0);
 }
 
 .projects__link {
   display: block;
   width: 100%;
   height: 100%;
+  padding-bottom: 20px;
   color: #212121;
 }
 
 .projects__overlay {
   position: relative;
-  width: 100%;
   overflow: hidden;
 }
 
@@ -930,9 +906,11 @@ img {
   position: absolute;
   top: 0;
   left: 0;
+  display: flex;
+  align-items: center;
   width: 100%;
   height: 100%;
-  padding: 49px 45px 49px 24px;
+  padding: 0 24px;
   font-size: 18px;
   line-height: 1.556;
   letter-spacing: 0.03em;
@@ -942,12 +920,9 @@ img {
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.projects__item:hover .projects__description {
-  transform: translateY(0);
-}
-
 .projects__name {
-  margin: 20px 24px 4px 24px;
+  margin-top: 20px;
+  padding-left: 24px;
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
@@ -955,7 +930,8 @@ img {
 }
 
 .projects__type {
-  margin: 0 24px 20px 24px;
+  margin-bottom: 4px;
+  padding-left: 24px;
   font-size: 16px;
   line-height: 1.875;
   letter-spacing: 0.03em;
