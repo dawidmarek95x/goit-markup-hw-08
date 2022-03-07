@@ -1,3 +1,7 @@
+.mobile-nav__list {
+  flex-grow: 1;
+}
+
 .mobile-nav__item {
   &:not(:last-child) {
     margin-bottom: 32px;
