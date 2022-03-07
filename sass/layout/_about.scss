@@ -3,8 +3,10 @@
   padding-bottom: 60px;
 }
 
-.about__item:not(:last-child) {
-  margin-bottom: 30px;
+.about__item {
+  &:not(:last-child) {
+    margin-bottom: 30px;
+  }
 }
 
 .about__icon--wrapper {
@@ -31,6 +33,41 @@
   line-height: $rowHeight-171p4;
   letter-spacing: $lettSpacing-03;
   color: $colorSecondary;
+}
+
+@media screen and (min-width: 768px) {
+  .about {
+    padding-bottom: 45px;
+  }
+
+  .about__item {
+    &:not(:last-child) {
+      margin-bottom: 0;
+    }
+  }
+
+  .about__content {
+    display: flex;
+  }
+
+  .about__header {
+    text-align: left;
+  }
+}
+
+@media screen and (min-width:768px) and (max-width:1199px) {
+  .about__content {
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: -30px;
+    margin-left: -30px;
+  }
+
+  .about__item {
+    flex-basis: calc((100% / 2) - 30px);
+    margin-top: 30px;
+    margin-left: 30px;
+  }
 }
 
 // .about {
