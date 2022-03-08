@@ -15,15 +15,10 @@
   color: $colorLight;
 }
 
-// .website-logo {
-//   font-family: $fontSecondary;
-//   font-weight: $fontWeightBold;
-//   font-size: $fontSize26;
-//   line-height: 1.192;
-//   letter-spacing: $lettSpacing-03;
-//   color: $colorDark;
-
-//   .header-section & {
-//     margin-right: 93px;
-//   }
-// }
+@media screen and (min-width: 1200px) {
+  .website-logo {
+    font-size: $fontSize26;
+    line-height: $rowHeight-119p2;
+    color: $colorDark;
+  }
+}

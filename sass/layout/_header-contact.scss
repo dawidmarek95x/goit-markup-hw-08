@@ -44,34 +44,34 @@
   }
 }
 
-// .header-contact {
-//   display: flex;
-//   margin-left: auto;
-// }
+@media screen and (min-width: 1200px) {
+  .header-contact {
+    display: flex;
+  }
 
-// .header-contact__item {
-//   &:not(:last-child) {
-//     margin-right: 50px;
-//   }
-// }
+  .header-contact__item {
+    &:not(:last-child) {
+      margin-bottom: 0;
+      margin-right: 30px;
+    }
+  }
 
-// .header-contact__link {
-//   display: flex;
-//   align-items: center;
-//   color: $colorSecondary;
-// }
+  .header-contact__link {
+    font-size: $fontSize14;
+    line-height: $rowHeight-114p3;
+  }
 
-// .header-contact__icon {
-//   margin-right: 10px;
-//   fill: $colorSecondary;
-// }
+  .header-contact__icon {
+    margin-right: 10px;
+  }
 
-// .envelope-icon {
-//   width: 16px;
-//   height: 12px;
-// }
-
-// .smartphone-icon {
-//   width: 10px;
-//   height: 16px;
-// }
+  .envelope-icon {
+    width: 16px;
+    height: 12px;
+  }
+  
+  .smartphone-icon {
+    width: 10px;
+    height: 16px;
+  }
+}
