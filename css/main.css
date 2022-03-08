@@ -676,6 +676,23 @@ img {
   margin-top: 60px;
 }
 
+@media screen and (min-width: 768px) {
+  .footer-section__container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  .footer-section__address {
+    margin-left: 61px;
+  }
+  .footer-section__social {
+    margin: 5px 74px 0 0;
+  }
+  .footer-section__newsletter {
+    margin: 60px auto 0 auto;
+  }
+}
+
 .newsletter {
   display: flex;
   flex-direction: column;
@@ -739,6 +756,18 @@ img {
   width: 24px;
   height: 24px;
   margin-left: 24px;
+}
+
+@media screen and (min-width: 768px) {
+  .newsletter__input {
+    width: 450px;
+  }
+}
+
+@media screen and (min-width: 1065px) {
+  .newsletter {
+    padding: 0 70px;
+  }
 }
 
 /* MAIN COMPONENTS STUDIO WEBSITE */

@@ -53,6 +53,26 @@
   margin-top: 60px;
 }
 
+@media screen and (min-width: 768px) {
+  .footer-section__container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  .footer-section__address {
+    margin-left: 61px;
+  }
+  
+  .footer-section__social {
+    margin: 5px 74px 0 0;
+  }
+
+  .footer-section__newsletter {
+    margin: 60px auto 0 auto;
+  }
+}
+
 // .footer-section__container {
 //   display: flex;
 // }
