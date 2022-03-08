@@ -1104,7 +1104,6 @@ img {
 
 @media screen and (min-width: 1200px) {
   .team__list {
-    display: flex;
     flex-wrap: nowrap;
     margin-top: 0;
     margin-left: 0;
@@ -1163,6 +1162,22 @@ img {
 @media screen and (min-width: 768px) {
   .customers__link {
     width: 226px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .customers__list {
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    margin-top: 0;
+    margin-left: 0;
+  }
+  .customers__item {
+    margin-top: 0;
+    margin-left: 0;
+  }
+  .customers__link {
+    width: 170px;
   }
 }
 
