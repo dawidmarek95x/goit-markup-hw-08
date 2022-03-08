@@ -7,11 +7,10 @@
   letter-spacing: $lettSpacing-03;
 }
 
-// .secondary-header {
-//   margin-bottom: 50px;
-//   font-weight: $fontWeightBold;
-//   font-size: $fontSize36;
-//   line-height: 1.167;
-//   text-align: center;
-//   letter-spacing: $lettSpacing-03;
-// }
+@media screen and (min-width: 1200px) {
+  .secondary-header {
+    margin-bottom: 50px;
+    font-size: $fontSize36;
+    line-height: $rowHeight-116p7;
+  }
+}

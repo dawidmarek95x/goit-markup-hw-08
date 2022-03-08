@@ -326,6 +326,14 @@ img {
   letter-spacing: 0.03em;
 }
 
+@media screen and (min-width: 1200px) {
+  .secondary-header {
+    margin-bottom: 50px;
+    font-size: 36px;
+    line-height: 1.167;
+  }
+}
+
 .tertiary-header {
   font-weight: 700;
   font-size: 14px;
@@ -1004,30 +1012,33 @@ img {
   display: none;
 }
 
-.what-we-do__list {
-  display: flex;
-  justify-content: space-between;
-}
-
-.what-we-do__item {
-  position: relative;
-}
-
-.what-we-do__label {
-  position: absolute;
-  left: 0;
-  bottom: 0;
-  width: 100%;
-  padding-top: 27px;
-  padding-bottom: 27px;
-  font-weight: 700;
-  font-size: 14px;
-  line-height: 1.143;
-  text-align: center;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
-  color: #ffffff;
-  background-color: rgba(47, 48, 58, 0.8);
+@media screen and (min-width: 1200px) {
+  .what-we-do {
+    display: block;
+  }
+  .what-we-do__list {
+    display: flex;
+    justify-content: space-between;
+  }
+  .what-we-do__item {
+    position: relative;
+  }
+  .what-we-do__label {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    padding-top: 27px;
+    padding-bottom: 27px;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.143;
+    text-align: center;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #ffffff;
+    background-color: rgba(47, 48, 58, 0.8);
+  }
 }
 
 .team {
