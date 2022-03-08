@@ -1280,7 +1280,22 @@ img {
 
 @media screen and (min-width: 768px) {
   .filter-set {
+    justify-content: center;
+    margin-top: 0;
     margin-bottom: 30px;
+  }
+  .filter-set__item {
+    margin-top: 0;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .filter-set {
+    margin-bottom: 50px;
+  }
+  .filter-set__btn {
+    width: auto;
+    padding: 6px 22px;
   }
 }
 
