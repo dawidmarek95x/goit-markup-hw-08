@@ -58,7 +58,7 @@
 
 .projects__name {
   margin-top: 20px;
-  padding-left: 24px;
+  padding: 0 24px;
   font-weight: $fontWeightBold;
   font-size: $fontSize18;
   line-height: $rowHeight-200;
@@ -67,7 +67,7 @@
 
 .projects__type {
   margin-bottom: 4px;
-  padding-left: 24px;
+  padding: 0 24px;
   font-size: $fontSize16;
   line-height: $rowHeight-187p5;
   letter-spacing: $lettSpacing-03;
@@ -83,6 +83,29 @@
 @media screen and (min-width: 430px) {
   .projects__description {
     font-size: $fontSize18;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .projects {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: -30px;
+    margin-left: -30px;
+  }
+
+  .projects__item {
+    flex-basis: calc((100% / 2) - 30px);
+    margin-top: 30px;
+    margin-left: 30px;
+
+    &:not(:last-child) {
+      margin-bottom: 0;
+    }
+  }
+
+  .projects__link {
+    padding-bottom: 20px;
   }
 }
 
