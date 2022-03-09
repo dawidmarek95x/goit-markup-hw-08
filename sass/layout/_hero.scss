@@ -11,7 +11,7 @@
 }
 
 .hero__content {
-  width: 365px;
+  width: 290px;
   margin: 0 auto;
   text-align: center;
 }
@@ -42,6 +42,12 @@
       $bgColorDarkOpacity40, 
       $bgColorDarkOpacity40),  
     url(../images/hero/hero-bg-mobile@2x.jpg);
+  }
+}
+
+@media screen and (min-width: 480px) {
+  .hero__content {
+    width: 365px;
   }
 }
 

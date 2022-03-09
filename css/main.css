@@ -912,7 +912,7 @@ img {
 }
 
 .hero__content {
-  width: 365px;
+  width: 290px;
   margin: 0 auto;
   text-align: center;
 }
@@ -940,6 +940,12 @@ img {
 @media (min-device-pixel-ratio: 2), (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
   .hero {
     background-image: linear-gradient(#2f303a66, #2f303a66), url(../images/hero/hero-bg-mobile@2x.jpg);
+  }
+}
+
+@media screen and (min-width: 480px) {
+  .hero__content {
+    width: 365px;
   }
 }
 
@@ -1367,7 +1373,7 @@ img {
 }
 
 .projects__type {
-  margin-bottom: 4px;
+  margin-top: 4px;
   padding: 0 24px;
   font-size: 16px;
   line-height: 1.875;
@@ -1375,15 +1381,9 @@ img {
   color: #757575;
 }
 
-@media screen and (min-width: 360px) {
+@media screen and (min-width: 480px) {
   .projects__description {
     padding: 0 24px;
-  }
-}
-
-@media screen and (min-width: 430px) {
-  .projects__description {
-    font-size: 18px;
   }
 }
 
@@ -1404,6 +1404,16 @@ img {
   }
   .projects__link {
     padding-bottom: 20px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .projects__item {
+    flex-basis: calc((100% / 3) - 30px);
+  }
+  .projects__description {
+    padding: 49px 24px;
+    font-size: 18px;
   }
 }
 /*# sourceMappingURL=main.css.map */
